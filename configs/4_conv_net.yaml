@@ -1,0 +1,5 @@
+class_path: v2.models.ConvNet
+init_args:
+  kernel_size: 3
+  num_layers: 5
+  num_classes: 10

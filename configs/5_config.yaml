@@ -1,0 +1,18 @@
+dataset:
+  class_path: v3.datasets.Cifar10Dataset
+  init_args:
+    data_dir: /home/marianne/data
+    batch_size: 128
+    augment: true
+model:
+  class_path: v3.models.Model
+  init_args:
+    backbone:
+      class_path: v3.models.ConvNet
+      init_args:
+        kernel_size: 3
+        num_layers: 5
+    head:
+      class_path: v3.models.ObjectDetectionHead
+      init_args:
+        num_classes: 10

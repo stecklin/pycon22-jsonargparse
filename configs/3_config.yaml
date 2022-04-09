@@ -1,0 +1,12 @@
+dataset:
+  class_path: v1.datasets.Cifar10Dataset
+  init_args:
+    data_dir: /home/marianne/data
+    batch_size: 128
+    augment: true
+model:
+  class_path: v1.models.ConvNet
+  init_args:
+    num_classes: 10
+    kernel_size: 3
+    num_layers: 5

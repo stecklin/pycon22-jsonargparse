@@ -1,0 +1,2 @@
+dataset: 4_cifar10.yaml
+model: 4_conv_net.yaml

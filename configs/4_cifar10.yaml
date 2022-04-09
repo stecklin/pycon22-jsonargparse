@@ -1,0 +1,5 @@
+class_path: v2.datasets.Cifar10Dataset
+init_args:
+  data_dir: /home/marianne
+  batch_size: 128
+  augment: true

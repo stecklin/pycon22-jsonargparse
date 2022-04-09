@@ -1,0 +1,7 @@
+class_path: v2.models.VisionTransformer
+init_args:
+  num_layers: 12
+  num_heads: 12
+  hidden_dim: 768
+  mlp_dim: 3072
+  num_classes: 10
